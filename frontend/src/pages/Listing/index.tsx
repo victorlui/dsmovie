@@ -1,7 +1,8 @@
 import React from "react";
+import Pagination from "../../components/Pagination";
 
 const Listing: React.FC = () => {
-  return <h1>Listing</h1>;
+  return <Pagination />;
 };
 
 export default Listing;
